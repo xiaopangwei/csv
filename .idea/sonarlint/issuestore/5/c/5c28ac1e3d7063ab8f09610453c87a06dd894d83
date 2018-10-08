@@ -1,0 +1,6 @@
+
+Ÿ%squid:RedundantThrowsDeclarationCheck"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(Âº„¾
+Ÿ%squid:RedundantThrowsDeclarationCheck"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(Ïäý¼
+¤%squid:RedundantThrowsDeclarationCheck("nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(È…Úªùÿÿÿÿ
+¤%squid:RedundantThrowsDeclarationCheck1"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(²¾üÚüÿÿÿÿ
+?squid:S1125;"(Remove the literal "true" boolean value.(ÊÈÞê

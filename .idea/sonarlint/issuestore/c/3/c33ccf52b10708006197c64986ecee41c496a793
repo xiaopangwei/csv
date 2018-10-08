@@ -1,0 +1,10 @@
+
+V
+squid:S106m"9Replace this use of System.out or System.err by a logger.(É¢¡š8§ÍÄ£ä,
+«%squid:RedundantThrowsDeclarationCheckd"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(Îó˜õÿÿÿÿÿ8§ÍÄ£ä,
+Qsquid:S1135ë"2Complete the task associated to this TODO comment.(åè¥ç8§ÍÄ£ä,
+«%squid:RedundantThrowsDeclarationCheck}"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(òüáşÿÿÿÿ8§ÍÄ£ä,
+¬%squid:RedundantThrowsDeclarationCheckÑ"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(½Ó¾êüÿÿÿÿ8§ÍÄ£ä,
+Wsquid:S1444"4Make this "public static csvMetaDetails" field final(Óªº‡ùÿÿÿÿ8¨—í¢ä,
+§%squid:RedundantThrowsDeclarationCheckÌ"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(‘¹’„8§ÍÄ£ä,
+”"squid:ClassVariableVisibilityCheck"ZMake csvMetaDetails a static final constant or non-public and provide accessors if needed.(Óªº‡ùÿÿÿÿ8¨—í¢ä,

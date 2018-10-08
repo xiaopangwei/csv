@@ -1,0 +1,7 @@
+
+¢%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'common.DataFormatRuntimeException' which is a runtime exception.(ıê¢şÿÿÿÿ
+¢%squid:RedundantThrowsDeclarationCheck$"lRemove the declaration of thrown exception 'common.DataFormatRuntimeException' which is a runtime exception.(şµ÷¤şÿÿÿÿ
+%squid:RedundantThrowsDeclarationCheck."lRemove the declaration of thrown exception 'common.DataFormatRuntimeException' which is a runtime exception.(¿ËÆ”
+?squid:S1125:")Remove the literal "false" boolean value.(¯Ó¼
+asquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(÷¢³’
+asquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(÷¢³’

@@ -1,0 +1,16 @@
+
+Š squid:ForLoopCounterChangedCheckÆ"XRefactor the code in order to not assign to this loop counter from within the loop body.(¿¢í¥ÿÿÿÿÿ
+¤%squid:RedundantThrowsDeclarationCheckU"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(œå­ ýÿÿÿÿ
+Ÿ%squid:RedundantThrowsDeclarationCheckm"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(Î‡¸¼
+Ÿ%squid:RedundantThrowsDeclarationCheck©"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(‰ï³
+Isquid:S1199:"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+\squid:S4143¾"DVerify this is the key that was intended; it was already set before.(‡®à§
+gsquid:CommentedOutCodeLine~"<This block of commented-out lines of code should be removed.(Ü¾ŒÞýÿÿÿÿ
+isquid:S3776'"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(²êñè
+isquid:S3776©"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(‰ï³
+Tsquid:S3655È"7Call "Optional#isPresent()" before accessing the value.(„£Óçûÿÿÿÿ
+Tsquid:S3655Ë"7Call "Optional#isPresent()" before accessing the value.(È˜¦Þøÿÿÿÿ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(¬Éñâ
+Ysquid:S1858Z"B"getValue" returns a string, there's no need to call "toString()".(””§ì
+ksquid:S1858o"O"addedElement" is already a string, there's no need to call "toString()" on it.(ÈÂ¶µþÿÿÿÿ
+ksquid:S1858"O"addedElement" is already a string, there's no need to call "toString()" on it.(¿‘Øøÿÿÿÿ

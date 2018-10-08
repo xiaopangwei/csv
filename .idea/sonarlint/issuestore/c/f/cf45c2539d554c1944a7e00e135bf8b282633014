@@ -1,0 +1,11 @@
+
+Ysquid:S1858o"B"getValue" returns a string, there's no need to call "toString()".(””§ì
+%squid:RedundantThrowsDeclarationCheckÔ"lRemove the declaration of thrown exception 'common.DataFormatRuntimeException' which is a runtime exception.(öµ¤¢
+[squid:S41439"DVerify this is the key that was intended; it was already set before.(‡®à§
+¥%squid:RedundantThrowsDeclarationCheckŠ"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(»ËÏ­ıÿÿÿÿ
+lsquid:S1858œ"O"addedElement" is already a string, there's no need to call "toString()" on it.(¿‘Øøÿÿÿÿ
+£%squid:RedundantThrowsDeclarationCheckÍ"lRemove the declaration of thrown exception 'common.DataFormatRuntimeException' which is a runtime exception.( º™„şÿÿÿÿ
+hsquid:CommentedOutCodeLine›"<This block of commented-out lines of code should be removed.(Ü¾ŒŞıÿÿÿÿ
+Dsquid:S1481G"-Remove this unused "fieldNum" local variable.(Ãå–Ğ
+lsquid:S1858Œ"O"addedElement" is already a string, there's no need to call "toString()" on it.(ÈÂ¶µşÿÿÿÿ
+¤%squid:RedundantThrowsDeclarationCheckj"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(¿Íš©ıÿÿÿÿ

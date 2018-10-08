@@ -1,0 +1,15 @@
+
+Jsquid:S1481",Remove this unused "result1" local variable.(¨’µ8γΏ¦δ,
+isquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(«ΛΖ“8µ…›¥δ,
+nsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(Π‰­Ζύÿÿÿÿ8„¬ς¤δ,
+Csquid:S1481",Remove this unused "result2" local variable.(χ‡±ς
+Ysquid:S1854";Remove this useless assignment to local variable "result1".(¨’µ8γΏ¦δ,
+%squid:RedundantThrowsDeclarationCheck"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(¨½εή
+nsquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(ΖθΏωÿÿÿÿ8µ…›¥δ,
+Rsquid:S1854";Remove this useless assignment to local variable "result2".(χ‡±ς
+isquid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(΄–ψ›8•¦δ,
+isquid:S1192"KDefine a constant instead of duplicating this literal "0,1,23,456" 3 times.(¨’µ8ήπ¦δ,
+Jsquid:S1481",Remove this unused "result3" local variable.(τ¶†8ήπ¦δ,
+Osquid:S1481"",Remove this unused "result4" local variable.(δΦ•ωÿÿÿÿ8ήπ¦δ,
+^squid:S1854"";Remove this useless assignment to local variable "result4".(δΦ•ωÿÿÿÿ8ήπ¦δ,
+Ysquid:S1854";Remove this useless assignment to local variable "result3".(τ¶†8ήπ¦δ,

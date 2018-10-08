@@ -1,0 +1,9 @@
+
+Isquid:S1199c"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+Tsquid:S3655"7Call "Optional#isPresent()" before accessing the value.(»ˆ¶¸ÿÿÿÿÿ
+Š squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(¿¢í¥ÿÿÿÿÿ
+Ÿ%squid:RedundantThrowsDeclarationCheck"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(š ÌÕ
+osquid:S3776…"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ÄÇöçøÿÿÿÿ
+nsquid:S3776P"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ÏãÂÔüÿÿÿÿ
+¤%squid:RedundantThrowsDeclarationCheckP"nRemove the declaration of thrown exception 'common.CsvProcessorRuntimeException' which is a runtime exception.(ÏãÂÔüÿÿÿÿ
+Tsquid:S3655’"7Call "Optional#isPresent()" before accessing the value.(é‘í©üÿÿÿÿ

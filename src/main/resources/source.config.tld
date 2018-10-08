@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<tradeReplayConfig>
+    <fileConfig>
+        <delimiter>,</delimiter>
+        <encoding>UTF-8</encoding>
+        <fileItems>
+            <filePath>/data/0/xxx-1</filePath>
+            <filePath>/data/0/xxx-2</filePath>
+            <filePath>/data/0/xxx-3</filePath>
+            <filePath>/data/0/xxx-4</filePath>
+        </fileItems>
+    </fileConfig>
+</tradeReplayConfig>
