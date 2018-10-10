@@ -7,7 +7,25 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/java/inhenritence/Son1.java" line="29" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a21ad4-27b2-4911-a00b-857066c38d1f" name="Default" comment="" />
+    <list default="true" id="48a21ad4-27b2-4911-a00b-857066c38d1f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/observer/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/observer/DispatchStrategyStaticProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/observer/SourceFileDispatcherStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/observer/exception/DispatchException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/observer/exception/DispatchRuntimeException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/observer/impl/AbstractHashStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/observer/impl/DxsPortHashStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/observer/impl/ProcessIdHashStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/observer/impl/RangeStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/observer/impl/SourceNameHashStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/observer/util/MapUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/others/TestRuntimeException.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flink-demo.iml" afterPath="$PROJECT_DIR$/flink-demo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CsvPropertyCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/csv/utility/CsvPropertyCache.java">
+      <file leaf-file-name="DispatchStrategyStaticProxy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/DispatchStrategyStaticProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="646">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractTradeReplayJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/job/AbstractTradeReplayJob.java">
+      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Class.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="194">
+              <caret line="263" column="39" lean-forward="true" selection-start-line="263" selection-start-column="39" selection-end-line="263" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SourceFileDispatcherStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/SourceFileDispatcherStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="21" column="98" lean-forward="false" selection-start-line="21" selection-start-column="98" selection-end-line="21" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,74 +85,88 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamRecordExecutor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/job/StreamRecordExecutor.java">
+      <file leaf-file-name="DxsPortHashStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/impl/DxsPortHashStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding>
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BiKeyOfStep.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/BiKeyOfStep.java">
+      <file leaf-file-name="AbstractHashStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/impl/AbstractHashStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CsvMetaDetails.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/CsvMetaDetails.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CsvSourceType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/CsvSourceType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KafkaFlinkProducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/operator/KafkaFlinkProducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PartitionerOfJobSet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/operator/PartitionerOfJobSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TradeReplayMapFunction.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/operator/TradeReplayMapFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="308">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessIdHashStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/impl/ProcessIdHashStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="17" />
+              <folding>
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RangeStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/impl/RangeStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+              <folding>
+                <element signature="e#1222#1231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/util/MapUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SourceNameHashStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/impl/SourceNameHashStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -167,28 +209,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/formatter/CsvFormatterNew.java" />
-        <option value="$PROJECT_DIR$/src/main/java/formatter/CsvDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/formatter/DataFormatter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/formatter/impl/CsvFormatterNew.java" />
-        <option value="$PROJECT_DIR$/src/main/java/formatter/impl/CsvPropertyCache.java" />
-        <option value="$PROJECT_DIR$/src/main/java/csv/formatter/impl/CsvPropertyCache.java" />
-        <option value="$PROJECT_DIR$/src/main/java/csv/formatter/DataFormatter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/csv/utility/Copyable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/CsvDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/CsvMetaDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/BiKeyOfStep.java" />
-        <option value="$PROJECT_DIR$/src/main/java/processor/ProcessorFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/csv/utility/CsvPropertyCache.java" />
-        <option value="$PROJECT_DIR$/src/main/java/processor/impl/QuotationOfAS400Processor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/processor/impl/QuotationOfUnixProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/source.config.tld" />
         <option value="$PROJECT_DIR$/src/test/java/validation/TestUnion.java" />
         <option value="$PROJECT_DIR$/src/test/java/validation/CustomMapFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/csv/formatter/AbstractCsvFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/processor/CsvProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/operator/KafkaFlinkProducer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/others/TestMultiValueMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlinkJobDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/validation/ThreadSafe.java" />
@@ -218,6 +243,23 @@
         <option value="$PROJECT_DIR$/src/main/java/TradeReplayJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/CsvFormatter.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/exception/DispatchException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/exception/DispatchRuntimeException.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/AbstractDispatchStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/util/MapUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/others/TestRuntimeException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/impl/RangeStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/HashStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/impl/DXSPortHashStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/impl/DxsPortHashStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/impl/ProcessIdHashStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/impl/SourceNameHashStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/AbstractHashStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/SourceFileDispatcherStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/impl/AbstractHashStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/DispatchStrategyStaticProxy.java" />
       </list>
     </option>
   </component>
@@ -590,7 +632,85 @@
             </path>
             <path>
               <item name="flink-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="flink-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="operator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -607,7 +727,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Csv&#9;FILE&#9;file:///Users/weihuang/IDEAWorkPlace/flink-demo/src/main/java/model/CsvSourceType.java&#10;Properties&#9;PSI&#9;JAVA://java.util.Properties&#10;RichMapFunction&#9;PSI&#9;JAVA://org.apache.flink.api.common.functions.RichMapFunction&#10;Kafka&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-connector-kafka-0.10_2.11/1.3.2/flink-connector-kafka-0.10_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaProducer010.java&#10;SinkFunctio&#9;PSI&#9;JAVA://org.apache.flink.streaming.api.functions.sink.SinkFunction&#10;SourceFunction&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.3.2/flink-streaming-java_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/api/functions/source/RichSourceFunction.java&#10;StreamEnv&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.3.2/flink-streaming-java_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/api/environment/StreamContextEnvironment.java&#10;KeyS&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-core/1.4.2/flink-core-1.4.2.jar!/org/apache/flink/api/java/functions/KeySelector.class&#10;Partition&#9;FILE&#9;file:///Users/weihuang/IDEAWorkPlace/flink-demo/src/main/java/operator/PartitionerOfJobSet.java&#10;SourceFunct&#9;PSI&#9;JAVA://org.apache.flink.streaming.api.functions.source.SourceFunction&#10;DataStream&#9;PSI&#9;JAVA://org.apache.flink.streaming.api.datastream.DataStream&#10;FlatMapFunction&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-core/1.4.2/flink-core-1.4.2-sources.jar!/org/apache/flink/api/common/functions/RichFlatMapFunction.java&#10;FlatMapF&#9;PSI&#9;JAVA://org.apache.flink.api.java.operators.translation.PlanFilterOperator.FlatMapFilter&#10;Multiva&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0-sources.jar!/org/apache/commons/collections4/map/MultiValueMap.java&#10;Multimaps&#9;PSI&#9;JAVA://org.apache.flink.shaded.guava18.com.google.common.collect.Multimaps&#10;KeyedStr&#9;PSI&#9;JAVA://org.apache.flink.streaming.api.datastream.KeyedStream&#10;Discarding&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.4.2/flink-streaming-java_2.11-1.4.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/DiscardingSink.java&#10;DataStre&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.4.2/flink-streaming-java_2.11-1.4.2-sources.jar!/org/apache/flink/streaming/api/datastream/DataStream.java&#10;MultiValue&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar!/org/apache/commons/collections/map/MultiValueMap.java&#10;MultiValueMa&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/org/apache/commons/collections/map/MultiValueMap.class&#10;MultiValueMap&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0-sources.jar!/org/apache/commons/collections4/map/MultiValueMap.java&#10;FlinkKafkaP&#9;PSI&#9;JAVA://org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer010&#10;StreamMa&#9;PSI&#9;JAVA://org.apache.flink.streaming.api.operators.StreamMap" />
+    <property name="SearchEverywhereHistoryKey" value="ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList&#10;MultiV&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0-sources.jar!/org/apache/commons/collections4/map/MultiValueMap.java&#10;File&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/File.java&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;IOUtils&#9;PSI&#9;JAVA://org.apache.commons.io.IOUtils&#10;MultiValueMa&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0-sources.jar!/org/apache/commons/collections4/map/MultiValueMap.java&#10;Csv&#9;FILE&#9;file:///Users/weihuang/IDEAWorkPlace/flink-demo/src/main/java/model/CsvSourceType.java&#10;Properties&#9;PSI&#9;JAVA://java.util.Properties&#10;RichMapFunction&#9;PSI&#9;JAVA://org.apache.flink.api.common.functions.RichMapFunction&#10;Kafka&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-connector-kafka-0.10_2.11/1.3.2/flink-connector-kafka-0.10_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaProducer010.java&#10;SinkFunctio&#9;PSI&#9;JAVA://org.apache.flink.streaming.api.functions.sink.SinkFunction&#10;SourceFunction&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.3.2/flink-streaming-java_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/api/functions/source/RichSourceFunction.java&#10;StreamEnv&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.3.2/flink-streaming-java_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/api/environment/StreamContextEnvironment.java&#10;KeyS&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-core/1.4.2/flink-core-1.4.2.jar!/org/apache/flink/api/java/functions/KeySelector.class&#10;Partition&#9;FILE&#9;file:///Users/weihuang/IDEAWorkPlace/flink-demo/src/main/java/operator/PartitionerOfJobSet.java&#10;SourceFunct&#9;PSI&#9;JAVA://org.apache.flink.streaming.api.functions.source.SourceFunction&#10;DataStream&#9;PSI&#9;JAVA://org.apache.flink.streaming.api.datastream.DataStream&#10;FlatMapFunction&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-core/1.4.2/flink-core-1.4.2-sources.jar!/org/apache/flink/api/common/functions/RichFlatMapFunction.java&#10;FlatMapF&#9;PSI&#9;JAVA://org.apache.flink.api.java.operators.translation.PlanFilterOperator.FlatMapFilter&#10;Multiva&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0-sources.jar!/org/apache/commons/collections4/map/MultiValueMap.java&#10;Multimaps&#9;PSI&#9;JAVA://org.apache.flink.shaded.guava18.com.google.common.collect.Multimaps&#10;KeyedStr&#9;PSI&#9;JAVA://org.apache.flink.streaming.api.datastream.KeyedStream&#10;Discarding&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.4.2/flink-streaming-java_2.11-1.4.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/DiscardingSink.java&#10;DataStre&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.4.2/flink-streaming-java_2.11-1.4.2-sources.jar!/org/apache/flink/streaming/api/datastream/DataStream.java&#10;MultiValue&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar!/org/apache/commons/collections/map/MultiValueMap.java&#10;MultiValueMap&#9;FILE&#9;jar:///Users/weihuang/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0-sources.jar!/org/apache/commons/collections4/map/MultiValueMap.java&#10;FlinkKafkaP&#9;PSI&#9;JAVA://org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer010&#10;StreamMa&#9;PSI&#9;JAVA://org.apache.flink.streaming.api.operators.StreamMap" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
   </component>
@@ -617,11 +737,11 @@
       <recent name="utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="observer.impl" />
+      <recent name="observer.exception" />
       <recent name="inhenritence" />
       <recent name="common" />
       <recent name="validation" />
-      <recent name="common.config" />
-      <recent name="processor.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/common/config" />
@@ -639,7 +759,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="JUnit.TestRuntimeException.testSubList">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -648,34 +768,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="inhenritence.Client" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="flink-demo" />
-      <envs />
-    </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Client" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="flink-demo" />
-      <envs />
-    </configuration>
-    <configuration name="FlinkJobDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="FlinkJobDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -707,19 +799,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestUnion.testUnion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRuntimeException.testException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="validation.*" />
+          <option name="PATTERN" value="others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="flink-demo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="validation" />
-      <option name="MAIN_CLASS_NAME" value="validation.TestUnion" />
-      <option name="METHOD_NAME" value="testUnion" />
+      <option name="PACKAGE_NAME" value="others" />
+      <option name="MAIN_CLASS_NAME" value="others.TestRuntimeException" />
+      <option name="METHOD_NAME" value="testException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -732,24 +824,80 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ThreadSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRuntimeException.testMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="validation.*" />
+          <option name="PATTERN" value="others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="validation.ThreadSafe" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="flink-demo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="others" />
+      <option name="MAIN_CLASS_NAME" value="others.TestRuntimeException" />
+      <option name="METHOD_NAME" value="testMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="flink-demo" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestRuntimeException.testRunException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="flink-demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="others" />
+      <option name="MAIN_CLASS_NAME" value="others.TestRuntimeException" />
+      <option name="METHOD_NAME" value="testRunException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestRuntimeException.testSubList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="flink-demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="others" />
+      <option name="MAIN_CLASS_NAME" value="others.TestRuntimeException" />
+      <option name="METHOD_NAME" value="testSubList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -834,19 +982,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestRecordUtils.testStreamingAPI" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestUnion.testUnion" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FlinkJobDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ThreadSafe" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Client (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Client (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestRuntimeException.testException" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestRuntimeException.testRunException" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestRuntimeException.testMap" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestRuntimeException.testSubList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Client (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Client" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ThreadSafe" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FlinkJobDemo" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestUnion.testUnion" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestRuntimeException.testSubList" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestRuntimeException.testMap" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestRuntimeException.testRunException" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestRuntimeException.testException" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -871,7 +1019,7 @@
       <workItem from="1538274774411" duration="97000" />
       <workItem from="1538275166014" duration="109921000" />
       <workItem from="1538724243560" duration="12735000" />
-      <workItem from="1538793573818" duration="11366000" />
+      <workItem from="1538793573818" duration="21801000" />
     </task>
     <task id="LOCAL-00001" summary="重构">
       <created>1538492925093</created>
@@ -947,42 +1095,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMultiValueMap_testMultiKeyMap - 2018.10.04 at 02h 19m 40s.xml">
-      <configuration name="TestMultiValueMap.testMultiKeyMap" configurationId="JUnit" />
+    <history-entry file="TestRuntimeException_testMap - 2018.10.10 at 22h 03m 03s.xml">
+      <configuration name="TestRuntimeException.testMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMultiValueMap_testMultiKeyMap - 2018.10.04 at 02h 20m 22s.xml">
-      <configuration name="TestMultiValueMap.testMultiKeyMap" configurationId="JUnit" />
+    <history-entry file="TestRuntimeException_testMap - 2018.10.10 at 22h 03m 24s.xml">
+      <configuration name="TestRuntimeException.testMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMultiValueMap_testMultiKeyMap - 2018.10.04 at 02h 21m 04s.xml">
-      <configuration name="TestMultiValueMap.testMultiKeyMap" configurationId="JUnit" />
+    <history-entry file="TestRuntimeException_testMap - 2018.10.10 at 22h 05m 37s.xml">
+      <configuration name="TestRuntimeException.testMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMultiValueMap_testMultiKeyMap - 2018.10.04 at 02h 21m 32s.xml">
-      <configuration name="TestMultiValueMap.testMultiKeyMap" configurationId="JUnit" />
+    <history-entry file="TestRuntimeException_testMap - 2018.10.10 at 22h 09m 25s.xml">
+      <configuration name="TestRuntimeException.testMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMultiValueMap_testMultiMaps - 2018.10.04 at 11h 09m 12s.xml">
-      <configuration name="TestMultiValueMap.testMultiMaps" configurationId="JUnit" />
+    <history-entry file="TestRuntimeException_testMap - 2018.10.10 at 22h 09m 43s.xml">
+      <configuration name="TestRuntimeException.testMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMultiValueMap_testMultiMaps - 2018.10.04 at 14h 16m 54s.xml">
-      <configuration name="TestMultiValueMap.testMultiMaps" configurationId="JUnit" />
+    <history-entry file="TestRuntimeException_testMap - 2018.10.10 at 22h 14m 08s.xml">
+      <configuration name="TestRuntimeException.testMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUnion_testUnion - 2018.10.05 at 00h 24m 20s.xml">
-      <configuration name="TestUnion.testUnion" configurationId="JUnit" />
+    <history-entry file="TestRuntimeException_testMap - 2018.10.10 at 22h 26m 39s.xml">
+      <configuration name="TestRuntimeException.testMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUnion_testUnion - 2018.10.05 at 00h 25m 13s.xml">
-      <configuration name="TestUnion.testUnion" configurationId="JUnit" />
+    <history-entry file="TestRuntimeException_testSubList - 2018.10.10 at 23h 11m 35s.xml">
+      <configuration name="TestRuntimeException.testSubList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUnion_testUnion - 2018.10.05 at 00h 26m 37s.xml">
-      <configuration name="TestUnion.testUnion" configurationId="JUnit" />
+    <history-entry file="TestRuntimeException_testSubList - 2018.10.10 at 23h 11m 50s.xml">
+      <configuration name="TestRuntimeException.testSubList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUnion_testUnion - 2018.10.05 at 15h 47m 21s.xml">
-      <configuration name="TestUnion.testUnion" configurationId="JUnit" />
+    <history-entry file="TestRuntimeException_testSubList - 2018.10.10 at 23h 12m 00s.xml">
+      <configuration name="TestRuntimeException.testSubList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135129000" />
+    <option name="totallyTimeSpent" value="145564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
@@ -1003,12 +1152,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42910448" sideWeight="0.49427754" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42910448" sideWeight="0.49427754" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20913108" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27181688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1018,7 +1168,6 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.51655626" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1091,269 +1240,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-base_2.11/1.3.2/flink-connector-kafka-base_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/partitioner/FlinkFixedPartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="156" column="31" lean-forward="true" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/validation/ThreadSafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="37" column="61" lean-forward="false" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-          <folding>
-            <element signature="e#364#365#0" expanded="false" />
-            <element signature="e#398#399#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/others/TestMultiValueMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/processor/CsvFormatterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/inhenritence/Son1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/inhenritence/Son2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#428#429#0" expanded="false" />
-            <element signature="e#461#462#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/inhenritence/Parent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#517#518#0" expanded="false" />
-            <element signature="e#543#544#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/inhenritence/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#825#826#0" expanded="false" />
-            <element signature="e#875#876#0" expanded="false" />
-            <element signature="e#905#906#0" expanded="false" />
-            <element signature="e#973#974#0" expanded="false" />
-            <element signature="e#1065#1066#0" expanded="false" />
-            <element signature="e#1116#1117#0" expanded="false" />
-            <element signature="e#1164#1165#0" expanded="false" />
-            <element signature="e#1230#1231#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/javax/xml/crypto/KeySelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.3.2/flink-streaming-java_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/RichSinkFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.3.2/flink-streaming-java_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/api/environment/StreamContextEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-956">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#2951#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.3.2/flink-streaming-java_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/api/environment/StreamExecutionEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1582">
-          <caret line="1518" column="22" lean-forward="false" selection-start-line="1518" selection-start-column="22" selection-end-line="1518" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.3.2/flink-streaming-java_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/api/functions/source/RichSourceFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="43" column="93" lean-forward="false" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.3.2/flink-streaming-java_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/api/functions/source/SourceFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="96" column="6" lean-forward="true" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-0.10_2.11/1.3.2/flink-connector-kafka-0.10_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaProducer010.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="71" column="34" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.3.2/flink-core-1.3.2-sources.jar!/org/apache/flink/api/common/functions/RichMapFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="32" column="93" lean-forward="true" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.3.2/flink-core-1.3.2-sources.jar!/org/apache/flink/api/common/functions/MapFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.3.2/flink-streaming-java_2.11-1.3.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/SinkFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.3.2/flink-core-1.3.2-sources.jar!/org/apache/flink/api/java/functions/KeySelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Enumeration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="967" column="18" lean-forward="false" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FlinkJobDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="56" column="42" lean-forward="false" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/processor/impl/QueueOfAS400Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/processor/impl/QueueOfUnixProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/processor/impl/QuotationOfAS400Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="e#1552#1553#0" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/processor/impl/QuotationOfUnixProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/processor/AbstractProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/processor/CsvProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="976">
@@ -1527,8 +1413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="96" column="11" lean-forward="true" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
+        <state relative-caret-position="268">
+          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1537,6 +1423,277 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0-sources.jar!/org/apache/commons/collections4/MultiMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="47" column="3" lean-forward="false" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="132" column="36" lean-forward="false" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="155" column="23" lean-forward="false" selection-start-line="155" selection-start-column="23" selection-end-line="155" selection-end-column="23" />
+          <folding>
+            <element signature="e#4318#4319#0" expanded="false" />
+            <element signature="e#4357#4358#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/cs/StreamDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#2321#2322#0" expanded="true" />
+            <element signature="e#2386#2387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar!/org/apache/commons/io/IOUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1118">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/script/shell/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="135" column="20" lean-forward="true" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="false" />
+            <element signature="e#5784#5785#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0-sources.jar!/org/apache/commons/collections4/map/MultiValueMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-557">
+          <caret line="86" column="45" lean-forward="false" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
+          <folding>
+            <element signature="e#3667#3668#0" expanded="false" />
+            <element signature="e#3786#3787#0" expanded="false" />
+            <element signature="e#5554#5555#0" expanded="false" />
+            <element signature="e#5635#5636#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="806" column="24" lean-forward="false" selection-start-line="806" selection-start-column="24" selection-end-line="806" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0-sources.jar!/org/apache/commons/collections4/MapUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4742">
+          <caret line="79" column="12" lean-forward="false" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar!/org/apache/commons/io/FileUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="474" column="33" lean-forward="false" selection-start-line="474" selection-start-column="32" selection-end-line="474" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="106" column="13" lean-forward="false" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="452" column="18" lean-forward="false" selection-start-line="452" selection-start-column="18" selection-end-line="452" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5-sources.jar!/org/apache/commons/io/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="1975" column="7" lean-forward="true" selection-start-line="1975" selection-start-column="7" selection-end-line="1975" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/others/TestRuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="66" column="93" lean-forward="false" selection-start-line="66" selection-start-column="93" selection-end-line="66" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/exception/DispatchException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/exception/DispatchRuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/impl/SourceNameHashStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/impl/DxsPortHashStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/impl/ProcessIdHashStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/impl/RangeStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="e#1222#1231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/util/MapUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="263" column="39" lean-forward="true" selection-start-line="263" selection-start-column="39" selection-end-line="263" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/SourceFileDispatcherStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="98" lean-forward="false" selection-start-line="21" selection-start-column="98" selection-end-line="21" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/impl/AbstractHashStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/DispatchStrategyStaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
