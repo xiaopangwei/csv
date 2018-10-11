@@ -1,6 +1,6 @@
 package others;
 
-import observer.impl.RangeStrategy;
+import observer.util.PatternUtils;
 import org.apache.commons.collections4.MultiMap;
 import org.apache.commons.collections4.map.MultiValueMap;
 import org.junit.Test;
@@ -10,6 +10,8 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 /**
@@ -64,7 +66,33 @@ public class TestRuntimeException {
 
     @Test
     public void testSubList() {
-        List<List<Integer>> result = RangeStrategy.subList(Arrays.asList(1, 2, 3, 4, 5, 6), 3);
-        System.out.println(result);
+//        List<List<Integer>> result = RangeStrategy.subList(Arrays.asList(1, 2, 3, 4, 5, 6), 3);
+//        System.out.println(result);
+    }
+
+    @Test
+    public void testPattern() {
+        String  pattern = "^([a-z]+)[_]([a-z]+)(\\d{1,3})[_](\\d{1,3})(.csv)$";
+        Pattern r       = Pattern.compile(pattern);
+
+        // 现在创建 matcher 对象
+        Matcher m = r.matcher("queue_equitymsg178_128.csv");
+        if (m.find()) {
+            System.out.println(m.group(0));
+            System.out.println(m.group(1));
+            System.out.println(m.group(2));
+            System.out.println(m.group(3));
+            System.out.println(m.group(4));
+            System.out.println(m.group(5));
+        }
+    }
+
+    @Test
+    public void testPattern2() {
+        String sourceName = "quot_equitymsg1_4.csv";
+        System.out.println(PatternUtils.getDxsPort(sourceName));
+        System.out.println(PatternUtils.getProcessId(sourceName));
+        System.out.println(PatternUtils.getSourceType(sourceName));
+
     }
 }

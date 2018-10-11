@@ -15,6 +15,6 @@ public class SourceNameHashStrategy extends AbstractHashStrategy {
 
     @Override
     protected int getHashKey(File file) {
-        return 0;
+        return file.hashCode();
     }
 }

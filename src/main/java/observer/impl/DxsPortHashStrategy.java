@@ -1,5 +1,7 @@
 package observer.impl;
 
+import observer.util.PatternUtils;
+
 import java.io.File;
 
 /**
@@ -14,6 +16,6 @@ public class DxsPortHashStrategy extends AbstractHashStrategy {
 
     @Override
     protected int getHashKey(File file) {
-        return 0;
+        return PatternUtils.getDxsPort(file.getName());
     }
 }

@@ -1,5 +1,7 @@
 package observer.impl;
 
+import observer.util.PatternUtils;
+
 import java.io.File;
 
 /**
@@ -15,6 +17,6 @@ public class ProcessIdHashStrategy extends AbstractHashStrategy {
 
     @Override
     protected int getHashKey(File file) {
-        return 0;
+        return PatternUtils.getProcessId(file.getName());
     }
 }
